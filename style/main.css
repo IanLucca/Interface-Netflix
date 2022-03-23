@@ -118,6 +118,11 @@ header nav a:hover{
     margin-top: 10px;
 }
 
+.carrosel-filmes-1:hover, .carrosel-filmes-2:hover, .carrosel-filmes3:hover{
+    cursor: pointer;
+
+}
+
 .navbar:hover{
     color: grey;
     transition: .3s;
