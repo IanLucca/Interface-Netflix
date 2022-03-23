@@ -1,0 +1,125 @@
+
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* elementos base */
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    
+
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+
+.logo{
+    padding: 5px 20px;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%), url('/img/background-jjk.jpg');
+
+    height: 700px;
+    background-size: cover;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.titulo{
+    padding-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-left: 20px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer
+    
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    transition: .3s;
+}
+
+.filme-principal, .descricao{
+    margin-bottom: 1px;
+
+}
+.filme-principal, .descricao,.botoes{
+    padding-bottom: 40px;
+}
+.filme-principal .container{
+    width: 70%;
+}
+.descricao{
+    text-align: justify;
+    text-orientation: sideways-right;
+
+}
+.titulo, .descricao{
+    padding-left: 20px;
+
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+.carrosel-filmes-1{
+    margin-top: 10px;
+}
+
+.navbar:hover{
+    color: grey;
+    transition: .3s;
+    border: none;
+}
